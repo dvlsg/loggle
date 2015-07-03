@@ -1,0 +1,42 @@
+{
+  "name": "loggle",
+  "version": "0.1.0",
+  "description": "A lightweight logging wrapper for dynamically enabling levels of logging",
+  "keywords": [
+    "logging",
+    "levels",
+    "tools"
+  ],
+  "main": "dist/loggle.js",
+  "scripts": {
+    "test": "gulp test",
+    "build": "gulp build",
+    "watch": "gulp watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dvlsg/loggle.git"
+  },
+  "author": "Dave Lesage",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvlsg/loggle/issues"
+  },
+  "homepage": "https://github.com/dvlsg/loggle",
+  "devDependencies": {
+    "babel-core": "^5.5.8",
+    "babel-eslint": "^3.1.15",
+    "del": "^1.2.0",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^5.1.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-mocha": "^2.1.1",
+    "gulp-plumber": "^1.0.1",
+    "mocha": "^2.2.5",
+    "zana-assert": "^0.1.1"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.5.8",
+    "zana-check": "^0.1.1"
+  }
+}
